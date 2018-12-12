@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Profile;
 @Configuration
 public class Tut3Config {
 
-    @Bean
+   /* @Bean
     public FanoutExchange fanout() {
         return new FanoutExchange("tut.fanout");
     }
@@ -49,5 +49,5 @@ public class Tut3Config {
     @Bean
     public Tut3Sender sender() {
         return new Tut3Sender();
-    }
+    }*/
 }
